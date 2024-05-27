@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+
+    <meta charset="UTF-8">
+    <title>Votação</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="backgroud-animado">
+    <div class="container flex column">
+        <h1>Vote em quem você quer que saia</h1>
+        <div class="poll space-between flex row">
+            <div class="card flex column left-card">
+                <img class="participant-picture" alt="image" id="first-participant-picture"/>
+                <p class="name" id="first-participant-name"></p>
+                <button class="button" data-id="first_participant"><span>Votar</span></button>
+            </div>
+            <div> <h1>VS!</h1></div>
+            <div class="card flex column right-card">
+                <img class="participant-picture" alt="image" id="second-participant-picture"/>
+                <p class="name" id="second-participant-name"></p>
+                <button class="button" data-id="second_participant"><span>Votar</span></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
